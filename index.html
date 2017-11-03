@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/index.js"></script>
+ </head>
+  <body>
+  			<!--start：导航-->
+     <header >
+     	<div class="header container clearfix">
+     	 <div class="header-logo">
+     	 	<a href="#"><img src="images/logo.jpg"/></a>
+     	 </div>
+     	  </div>
+     	 <nav>
+     	 	 <div class="header-nav container clearfix">
+     	 	 	<ul>
+					<li><a href="#" class="current" target="_self">首页</a></li>
+					<li><a href="#"  target="_self">国产视频</a></li>
+					<li><a href="#"  target="_self">高清视频</a></li>
+					<li><a href="#"  target="_self">欧美大片</a></li>
+					<li><a href="#"  target="_self">自拍美图</a></li>
+					<li><a href="#"  target="_self">清纯校花</a></li>
+					<li><a href="#"  target="_self">妖艳车模</a></li>
+					<li><a href="#"  target="_self">家庭小说</a></li>
+					<li><a href="#"  target="_self">伦理小说</a></li>
+					<li><a href="#"  target="_self">VIP会员</a></li>
+					<li><a href="#"  target="_self">APP下载</a></li>
+				</ul>
+     	 	 </div>
+     	 </nav>
+     	 
+<!--<script>
+	$(function(){
+		$('#firstpane').click(function(){
+			$('.dropdown').show();
+		});
+		$('.dropdown').mouseleave(function(){
+			$('.dropdown').hide();
+		});
+	});
+</script>-->
+
+
+     	 <div class="header-s container">
+     	     <form>
+     	 	    <div class="header-f clearfix" id="click">
+     	 	   	<input class="input-click" type="text" placeholder="想下载什么电影？请输入影片某个关键词搜索..." />
+     	 	   	<button type="submit" class="submit">搜索</button> 
+     	 	   	<span class="icon" id="firstpane"><span class="item"></span></span>
+     	 	   	<ul class="dropdown">
+						<li><a href="#">电影</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">小说</a></li>
+						<li><a href="#">其它</a></li
+     	 	   </ul>
+     	 	  </div>
+     	 	   	<div class="hot-video">
+     	 	   		<h3>热门影视:</h3>
+     	 	   		<ul>
+     	 	   			<li><a href="#">恐龙当家</a></li>
+     	 	   			<li><a href="#">十三刺客</a></li>
+     	 	   			<li><a href="#">航时凶间</a></li>
+     	 	   			<li><a href="#">似人非人</a></li>
+     	 	   			<li><a href="#">悲喜两重天</a></li>
+     	 	   			<li><a href="#">最高纪录</a></li>
+     	 	   			<li><a href="#">更多</a></li>
+     	 	   		</ul>
+     	 	   	</div>
+     	 	   </div>
+     	 </div>
+     </header>
+		<!--end：导航-->
+		  
+				<!--start：内容-->
+				<div class="content container clearfix">
+				<!--start：热门影视-->
+				<div class="content-videos clearfix">
+					<div class="hot-videos clearfix">
+						<div class="hot-videos-tit">
+						  <h3>热门电影</h3>
+							<span></span>
+							<span class="tit-1"></span>
+							<span class="tit-2"></span>
+						</div>
+						<ul>
+							<li><a href="#"><span class="tit-item">01</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">02</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">03</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">04</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">05</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">06</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">07</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">08</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">09</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">10</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">11</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">12</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">13</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">14</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">15</span>[电视剧]琅琊榜</a></li>
+						</ul>
+					</div>
+					<div class="video-cnt clearfix">
+						<div class="video-cnt-tab clearfix">
+							<div id="outer">
+	<ul id="tab">
+        <li class="current"><a href="#">霍比特人3</a></li>
+        <li><a href="#">超能陆战队</a></li>
+        <li><a href="#">黄飞鸿之英雄有梦</a></li>
+        <li><a href="#">银河护卫队</a></li>
+        <li><a href="#">终结者：创世纪</a></li>
+    </ul>
+    <div id="content">
+        <ul style="display:block;">
+        	<a href="#"><img src="images/tab.jpg"/></a>
+        </ul>
+        <ul>
+            <a href="#"><img src="images/tab1.jpg"/></a>
+        </ul>
+        <ul>
+           <a href="#"><img src="images/tab2.jpg"/></a>
+        </ul>
+        <ul>
+           <a href="#"><img src="images/tab3.jpg"/></a>
+        </ul>
+        <ul>
+           <a href="#"><img src="images/tab1.jpg"/></a>
+        </ul>
+    </div>
+</div>
+						</div>
+						<div class="video-cnt-hot clearfix">
+							<h3><span>热点>></span>【热门电影排行榜】</h3>
+							<ul>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+								<li><a href="#"><span class="tit-item"></span>[动作片]致胜王牌</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="new-videos clearfix">
+						<div class="hot-videos-tit">
+						  <h3>最新电影</h3>
+							<span></span>
+							<span class="tit-1"></span>
+							<span class="tit-2"></span>
+						</div>
+						<ul>
+							<li><a href="#"><span class="tit-item">01</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">02</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">03</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">04</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">05</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">06</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">07</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">08</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">09</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">10</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">11</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">12</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">13</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">14</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">15</span>[电视剧]琅琊榜</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--end：热门影视-->
+				
+				<!--start：高清视频-->
+				<div class="gq-video">
+					<div class="gq-video-play">
+					<div class="gq-video-tit">
+						<div class="video-tit">
+							<span class="gq"></span>
+						<h3>高清电影</h3>
+						<h5>HD MO VIE</h5>
+						</div>
+					</div>
+					<div class="gq-video clearfix">
+						<h4>喜剧片最近更新</h4>
+						<span class="spot"></span>
+						<span class="guide"></span>
+					</div>
+					<div class="gq-dz">
+						<h4>推荐动作片</h4>
+						<span class="spot"></span>
+						<span class="guide"></span>
+					</div>
+					<div class="gq-videos">
+						<ul>
+							<li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+  				    <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+  				    <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+  				    <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+  				    <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+  				    <li><a href="#"><i class="bg"></i><img src="images/video.jpg"/>
+  				    <p>嗨翻姐妹行</p></a></li>
+						</ul>
+					</div>
+					<div class="gq-video-tj clearfix">
+						 <ul>
+							<li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+  				    <li><a href="#"><span class="tj-tit"></span>布达佩斯大饭店</a></li>
+						</ul>
+					</div>
+				  </div>
+			    <div class="hot-gq">
+			    	<div class="hot-gq-tit">
+							<h3>最新电影</h3>
+						</div>
+						<ul>
+							<li><a href="#"><span class="tit-item">01</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">02</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">03</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">04</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">05</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">06</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">07</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">08</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">09</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">10</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">11</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">12</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">13</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">14</span>[电视剧]琅琊榜</a></li>
+							<li><a href="#"><span class="tit-item">15</span>[电视剧]琅琊榜</a></li>
+						</ul>
+			    </div>
+					</div>
+					</div>
+				<!--end：高清视频-->
+				
+				<!--start：美女图片-->
+				<div class="pic container clearfix">
+					<div class="pic-mt clearfix">
+					<div class="pic-mt-tit">
+						<div class="mt-tit">
+							<span class="mt"></span>
+						<h3>美女图片</h3>
+						<p>AFFCETIONAL FIUM</p>
+						</div>	
+						<div class="mt-new clearfix">
+						<h4>美图最近更新</h4>
+						<span class="spot"></span>
+						<span class="guide"></span>
+					</div>
+					<div class="mt-tj clearfix">
+						<h4>推荐小说</h4>
+						<span class="spot"></span>
+						<span class="guide"></span>
+					</div>
+					</div>
+					</div>
+					<div class="cnt-pic clearfix">
+						<div class="cnt-pics clearfix">
+							<ul>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+								<li><a href="#"><img src="images/pics.jpg"/>一周的朋友</a></li>
+							</ul>
+						</div>
+						<div class="cnt-storys">
+							<div class="story-tit">
+							<h4>最近更新小说</h4>
+							</div>
+							<ul>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+								<li style="border-bottom:none"><a href="#">
+									<div class="story-t clearfix">
+										<h4>你好安妮</h4><span class="time">10-10</span>
+									</div>
+									<p>喜剧片《你好安妮》讲述的是一位备受冷落的好..</p>
+								</a></li>
+							</ul>
+						</div>
+						<div class="cnt-ss">
+							<ul>
+								<li><span class="ss-d"></span><a href="#">爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+								<li><a href="#"><span class="ss-d"></span>爱情避风港</a></li>
+							</ul>
+						</div>
+					</div>
+			   </div>
+				
+				<!--end：美女图片-->
+				</div>
+				<!--end：内容-->
+				
+				<!--start:友情链接-->
+	     <div class="blogroll container clearfix">
+	     	<h3>友情链接：</h3>
+	           	<ul>
+	           		<li><a href="#">高清电影下载</a></li>
+	           		<li><a href="#"> 电影领地</a></li>
+	           		<li><a href="#">y友乐园</a></li>
+	           		<li><a href="#">西瓜影院</a></li>
+	           		<li><a href="#">西瓜影院</a></li>
+	           		<li><a href="#"> 电视剧剧情</a></li>
+	           		<li><a href="#">80s</a></li>
+	           		<li><a href="#">雨蓝影视</a></li>
+	           		<li><a href="#">影音先锋资源</a></li>
+	           		<li><a href="#">电视剧剧情</a></li>
+	           		<li><a href="#">哥哥影视</a></li>
+	           		<li><a  class="zhe" href="#">ps4中文网</a></li>
+	           		<li><a href="#">电影天堂</a></li>
+	           		<li><a href="#">艾艾贴</a></li>
+	           		<li><a href="#">安卓软件</a></li>
+	           		<li><a href="#">青苹果影院</a></li>
+	           		<li><a href="#">新锦江娱乐</a></li>
+	           		<li><a href="#">新开传奇网站</a></li>
+	           		<li><a href="#">金皇朝娱乐</a></li>
+	           		<li><a href="#">魔域私服外挂</a></li>
+	           		<li><a href="#">中国人口数量</a></li>
+	           		<li><a href="#">qq空间素材</a></li>
+	           		<li><a href="#">久发国际注册</a></li>
+	           		<li><a href="#">桑拿网</a></li>
+	           		<li><a href="#">传世</a></li>
+	           		<li><a href="#">刺秦秘史</a></li>
+	           		<li><a href="#">亚洲城娱乐</a></li>
+	           		<li><a href="#">车险</a></li>
+	           		<li><a href="#">冒险岛私服</a></li>
+	           		<li><a href="#">冒险岛私服</a></li>
+	           		<li><a href="#">变形金刚 </a></li>
+	           		<li><a href="#">bet365</a></li>
+	           		<li><a href="#">时时彩开户</a></li>
+	           		<li><a href="#">皇冠投注网址</a></li>
+	           		<li><a href="#">伟德国际1946</a></li>
+	           		<li><a href="#">时时彩平台哪好</a></li>
+	           		<li><a href="#">35图库大全</a></li>
+	           		<li><a href="#">小K娱乐网</a></li>
+	           	</ul>
+	           </div>
+	              </div>
+	     <!--end:友情链接-->
+	     <!--start:底部-->
+		  <div class="footer-txt">
+		  	<div class="txt container">
+		<p>57see电影网提供的高清电影均来自互联网，如果有内容侵犯了您的权益，请及时联系我们，本站确认后会尽快处理。<br />
+Copyright©57see.com版权所有</p>
+		  	</div>
+	         </div>
+         <!--end:底部-->
+         
+         <!--回到顶部-->
+        <div class="back-top" id="back-top" >
+	      <p ><a href="#top">
+	      	<img src="images/top.png"/></a></p>
+        </div>
+				
+				<script>
+    $(function(){
+        window.onload = function()
+        {
+            var $li = $('#tab li');
+            var $ul = $('#content ul');
+                        
+            $li.mouseover(function(){
+                var $this = $(this);
+                var $t = $this.index();
+                $li.removeClass();
+                $this.addClass('current');
+                $ul.css('display','none');
+                $ul.eq($t).css('display','block');
+            })
+        }
+    });
+</script>
+  </body>
+</html>
